@@ -1,6 +1,15 @@
 # ItsIRL
 ## Intermediate Entity-based Sparse Interpretable Representation Learning
 
+> [**Intermediate Entity-based Sparse Interpretable Representation Learning**](https://arxiv.org/abs/2106.09502)<br/>
+> Diego Garcia-Olano, Yasumasa Onoe, Joydeep Ghosh, Byron Wallace<br/>
+> Blackbox NLP workshop at EMNLP 2022
+
+- Paper: [ [Arxiv preprint]() ]
+- Poster: [ [pdf](https://github.com/diegoolano/itsirl/blob/main/notebooks/poster_large.pdf) ]
+
+<img src="notebooks/ItsIRL_architecture.png" alt="drawing" width="600"/>
+
 <pre>
 1. See ier_model/README.md for how to pretrain ItsIRL model
 2. See experiments/README.md for how to run pretrained ItsIRL model on two tasks in paper ( ELC and BIOSSES )
