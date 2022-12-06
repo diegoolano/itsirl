@@ -5,16 +5,17 @@
 > Diego Garcia-Olano, Yasumasa Onoe, Joydeep Ghosh, Byron Wallace<br/>
 > Blackbox NLP workshop at EMNLP 2022
 
-- Paper: [ [Arxiv preprint]() ]
+- Paper: [ [Arxiv preprint](https://arxiv.org/abs/2212.01641) ]
 - Poster: [ [pdf](https://github.com/diegoolano/itsirl/blob/main/notebooks/poster_large.pdf) ]
 - Code: [ [github](https://github.com/diegoolano/itsirl/) ]
 
 > **Abstract**  
 Interpretable entity representations (IERs) are sparse embeddings that are “human-readable” in that dimensions correspond to fine-grained entity types and values are predicted probabil- ities that a given entity is of the corresponding type. These methods perform well in zero-shot and low supervision settings. Compared to standard dense neural embeddings, such interpretable representations may permit analysis and debugging. However, while fine-tuning sparse, interpretable representations improves accuracy on downstream tasks, it destroys the semantics of the dimensions which were enforced in pre-training. Can we maintain the interpretable semantics afforded by IERs while improving predictive performance on down- stream tasks? Toward this end, we propose Intermediate enTity-based Sparse Interpretable Representation Learning (ItsIRL). ItsIRL realizes improved performance over prior IERs on biomedical tasks, while maintaining “interpretability” generally and their ability to support model debugging specifically. The latter is enabled in part by the ability to perform “counterfactual” fine-grained entity type manipulation, which we explore in this work. Finally, we propose a method to construct entity type based class prototypes for revealing global semantic properties of classes learned by our model.  
 
-> **Architecture**  
+
 <img src="notebooks/ItsIRL_architecture.png" alt="drawing" width="600"/>
 
+## How to pretrain ItsIRL and reproduce experiments
 <pre>
 1. See ier_model/README.md for how to pretrain ItsIRL model
 2. See experiments/README.md for how to run pretrained ItsIRL model on two tasks in paper ( ELC and BIOSSES )
