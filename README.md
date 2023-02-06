@@ -5,7 +5,7 @@
 > Diego Garcia-Olano, Yasumasa Onoe, Joydeep Ghosh, Byron Wallace<br/>
 > Blackbox NLP workshop at EMNLP 2022
 
-- Paper: [ [Arxiv preprint](https://arxiv.org/abs/2212.01641) ]
+- Paper: [ [https://aclanthology.org/2022.blackboxnlp-1.17/](https://aclanthology.org/2022.blackboxnlp-1.17/) ]
 - Poster: [ [pdf](https://github.com/diegoolano/itsirl/blob/main/notebooks/poster_large.pdf) ]
 - Code: [ [github](https://github.com/diegoolano/itsirl/) ]
 
